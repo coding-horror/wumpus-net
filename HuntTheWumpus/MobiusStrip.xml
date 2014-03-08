@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Wumpus>
+    <Bats number="2" />
+    <Pits number="2" />
+    <Nodes>
+        <Node name="1">
+            <Links>
+                <Link name="20" />
+                <Link name="2" />
+                <Link name="3" />
+            </Links>
+        </Node>
+        <Node name="2">
+            <Links>
+                <Link name="19" />
+                <Link name="1" />
+                <Link name="4" />
+            </Links>
+        </Node>
+        <Node name="3">
+            <Links>
+                <Link name="1" />
+                <Link name="4" />
+                <Link name="5" />
+            </Links>
+        </Node>
+        <Node name="4">
+            <Links>
+                <Link name="2" />
+                <Link name="3" />
+                <Link name="6" />
+            </Links>
+        </Node>
+        <Node name="5">
+            <Links>
+                <Link name="3" />
+                <Link name="6" />
+                <Link name="7" />
+            </Links>
+        </Node>
+        <Node name="6">
+            <Links>
+                <Link name="4" />
+                <Link name="5" />
+                <Link name="8" />
+            </Links>
+        </Node>
+        <Node name="7">
+            <Links>
+                <Link name="5" />
+                <Link name="8" />
+                <Link name="9" />
+            </Links>
+        </Node>
+        <Node name="8">
+            <Links>
+                <Link name="6" />
+                <Link name="7" />
+                <Link name="10" />
+            </Links>
+        </Node>
+        <Node name="9">
+            <Links>
+                <Link name="7" />
+                <Link name="10" />
+                <Link name="11" />
+            </Links>
+        </Node>
+        <Node name="10">
+            <Links>
+                <Link name="8" />
+                <Link name="9" />
+                <Link name="12" />
+            </Links>
+        </Node>
+        <Node name="11">
+            <Links>
+                <Link name="9" />
+                <Link name="12" />
+                <Link name="13" />
+            </Links>
+        </Node>
+        <Node name="12">
+            <Links>
+                <Link name="10" />
+                <Link name="11" />
+                <Link name="14" />
+            </Links>
+        </Node>
+        <Node name="13">
+            <Links>
+                <Link name="11" />
+                <Link name="14" />
+                <Link name="15" />
+            </Links>
+        </Node>
+        <Node name="14">
+            <Links>
+                <Link name="12" />
+                <Link name="13" />
+                <Link name="16" />
+            </Links>
+        </Node>
+        <Node name="15">
+            <Links>
+                <Link name="12" />
+                <Link name="16" />
+                <Link name="17" />
+            </Links>
+        </Node>
+        <Node name="16">
+            <Links>
+                <Link name="14" />
+                <Link name="15" />
+                <Link name="18" />
+            </Links>
+        </Node>
+        <Node name="17">
+            <Links>
+                <Link name="15" />
+                <Link name="18" />
+                <Link name="19" />
+            </Links>
+        </Node>
+        <Node name="18">
+            <Links>
+                <Link name="16" />
+                <Link name="17" />
+                <Link name="20" />
+            </Links>
+        </Node>
+        <Node name="19">
+            <Links>
+                <Link name="2" />
+                <Link name="17" />
+                <Link name="20" />
+            </Links>
+        </Node>
+        <Node name="20">
+            <Links>
+                <Link name="1" />
+                <Link name="18" />
+                <Link name="19" />
+            </Links>
+        </Node>
+    </Nodes>
+</Wumpus>
